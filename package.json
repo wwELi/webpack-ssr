@@ -1,0 +1,35 @@
+{
+  "name": "webpack-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.ssr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ssr": "webpack --config webpack.ssr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwELi/webpack-ssr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwELi/webpack-ssr/issues"
+  },
+  "homepage": "https://github.com/wwELi/webpack-ssr#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "express": "^4.17.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
